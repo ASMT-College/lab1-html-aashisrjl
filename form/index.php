@@ -41,7 +41,7 @@
                     </div> <br>
 
                     <div class="section">
-                    <label for="gender">country:</label> <br>
+                    <label for="country">country:</label> <br>
                     <input list="conuntry" name="country">
                     <datalist id="country">
                         <option value="nepal">nepal</option>
