@@ -8,6 +8,9 @@
         .error {
             color: red;
         }
+        .success{
+            color: green;
+        }
     </style>
 </head>
 <body>
@@ -65,7 +68,7 @@
 
     <script>
         function validateForm(e){
-            e.preventDefault();
+            // e.preventDefault();
 
             // Clear previous error messages
             document.getElementById('nameError').textContent = '';
