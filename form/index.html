@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;     
+        }
+    </style>
+</head>
+<body>
+    <!-- what are diffrent html form elements -->
+     <!-- what are differret types of type artributes html 5 -->
+    <form action="submit.php" method="POST">
+        <fieldset>
+            <legend>Register Form</legend>
+
+            <div class="section">
+            <label for="username">Username: </label> <br>
+            <input type="text" name="username" placeholder="aashis" >
+            </div> <br>
+
+            <div class="section">
+                <label for="email">Email:</label> <br>
+                <input type="email" name="email" placeholder="example@gmail.com" >
+                </div> <br>
+
+                <div class="section">
+                    <label for="gender">Gender:</label> <br>
+                    <select name="gender" id="">
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                        <option value="other">other</option>
+                    </select>
+                    </div> <br>
+
+                    <div class="section">
+                    <label for="country">country:</label> <br>
+                    <input list="country" name="country">
+                    <datalist id="country">
+                        <option value="nepal">nepal</option>
+                        <option value="bhutan">bhutan</option>
+                        <option value="india">india</option>
+                    </datalist>
+                    </div> <br>
+
+                <div class="section">
+                    <label for="password">Password:</label> <br>
+                    <input name="password" placeholder="your password" type="password">
+                    </div> <br>
+                    <input type="submit" value="submit">
+        </fieldset>
+    </form>
+    
+</body>
+</html>
